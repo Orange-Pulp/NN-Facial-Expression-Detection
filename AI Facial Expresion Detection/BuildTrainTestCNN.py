@@ -1,8 +1,8 @@
-from keras.layers import Input
-from keras.models import Model
-from keras.layers import Dense, Dropout, Flatten
-from keras.layers import Conv2D, MaxPooling2D
-from keras.optimizers import SGD
+from tensorflow.keras.layers import Input
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Dense, Dropout, Flatten
+from tensorflow.keras.layers import Conv2D, MaxPooling2D
+from tensorflow.keras.optimizers import SGD
 
 from DataLoader import DataLoader
 from Constants import *
